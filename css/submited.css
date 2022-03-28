@@ -1,0 +1,35 @@
+body > .submited-content{
+    display: none;
+}
+
+.submited > .submited-content{
+    display: inherit;
+    padding: 36px 24px;
+}
+
+.submited-content img{
+    object-position: center;
+}
+
+.submited-content > p{
+    color: var(--orange);
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 0.9em;
+    line-height: -6px;
+}
+
+.submited-text{
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: center;
+}
+
+.submited-text h1{
+    font-size: 1.7em;
+}
+
+.submited-text p{
+    color: var(--light-grey);
+}
